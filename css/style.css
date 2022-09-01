@@ -23,7 +23,7 @@ p{
 
 /* MAIN */
 .main-container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     background-color: aquamarine;
     text-align: center;
@@ -40,7 +40,6 @@ p{
     background-color: #0f0e17;
     float: left;
     border: 2px solid white;
-    padding: 2em;
     margin-right: 1em;
     margin-top: 2em;
 }
@@ -50,5 +49,24 @@ p{
     display: table;
     clear: both;
     
+}
+
+/* cards */
+div img{
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+h2, h3{
+    color: white;
+}
+
+h4{
+    color: blue;
+}
+
+.card-data{
+
 }
 
