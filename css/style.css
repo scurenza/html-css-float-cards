@@ -35,11 +35,10 @@ p{
 
 /* columns */
 .column{
-    height: 150px;
+    height: 130px;
     width: calc(100% / 3 - 1em);
     background-color: #0f0e17;
     float: left;
-    border: 2px solid white;
     margin-right: 1em;
     margin-top: 2em;
 }
@@ -56,17 +55,28 @@ div img{
     height: 100%;
     width: 35%;
     float: left;
+    margin-right: 0.5em;
 }
 
-h2, h3{
+h2{
     color: white;
+    margin-top: .8em;
+}
+
+h3{
+    color: white;
+    margin-top: .8em;
+    font-weight: 400;
 }
 
 h4{
-    color: blue;
+    color: #6ecbeb;
+    margin-top: 1em;
+    font-weight: 400;
 }
 
 .card-data{
-
+    text-align: left;
+    
 }
 
